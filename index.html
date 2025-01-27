@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
     <!-- Manrope-font cdn -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <!-- font awesome cdn -->
-    <script src="https://kit.fontawesome.com/db6d43e338.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/db6d43e338.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- tailwind cdn -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
-        @theme {
-          --color-clifford: #da373d;
-        }
-      </style>
-</head>
-<body>
-    
-</body>
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="md:flex justify-between items-center p-[25px] max-w-screen-2xl mx-auto 2xl:ml-30 xl:ml-20 lg:ml-10 md:ml-5 sm:ml-0">
+      <div>
+        <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900">It's good <br> tea time at The <br> Tea House</h1>
+        <p class="max-w-4/5 mt-5 mb-5 text-gray-700">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+        <button class="px-4 md:px-5 py-2.5 md:py-3 text-white bg-orange-600 lg:text-xl rounded-xl mb-5 bg-linear-to-r from-orange-500 to-red-500">Explore More <i class="fa-solid fa-arrow-right text-white rotate-[-45deg]"></i></button>
+      </div>
+      <div>
+        <img class="max-w-[90%]" src="images/banner.png" alt="">
+      </div>
+    </header>
+  </body>
 </html>
